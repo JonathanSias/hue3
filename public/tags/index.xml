@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Future Imperfect Slim</title>
+    <title>Tags on Hugo Future Imperfect Slim em português</title>
     <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on Hugo Future Imperfect Slim</description>
+    <description>Recent content in Tags on Hugo Future Imperfect Slim em português</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <language>pt</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>css</title>
-      <link>https://example.com/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>forestry</title>
+      <link>https://example.com/tags/forestry/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/css/</guid>
+      <guid>https://example.com/tags/forestry/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://example.com/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>hugo</title>
+      <link>https://example.com/tags/hugo/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/html/</guid>
+      <guid>https://example.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://example.com/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>netlify</title>
+      <link>https://example.com/tags/netlify/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://example.com/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/themes/</guid>
+      <guid>https://example.com/tags/netlify/</guid>
       <description></description>
     </item>
     
@@ -62,6 +53,15 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://example.com/tags/markdown/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/markdown/</guid>
       <description></description>
     </item>
     

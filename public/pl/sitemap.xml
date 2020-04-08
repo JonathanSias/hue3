@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://example.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -18,7 +18,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/"
+                href="https://example.com/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -57,18 +57,13 @@
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://example.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://example.com/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/about/"
+                href="https://example.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,7 +77,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://example.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -92,7 +87,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/categories/"
+                href="https://example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -145,7 +140,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://example.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -155,7 +150,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/"
+                href="https://example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"

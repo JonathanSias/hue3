@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netlify on Hugo Future Imperfect Slim em português</title>
+    <link>https://example.com/tags/netlify/</link>
+    <description>Recent content in netlify on Hugo Future Imperfect Slim em português</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo, Forestry e Netlify</title>
+      <link>https://example.com/blog/markdown-syntax/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/markdown-syntax/</guid>
+      <description>&lt;p&gt;Vamos falar um pouco a respeito do Hugo, um gerador de sites estáticos, assim como a realização do deploy através do Forestry e Netlify.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

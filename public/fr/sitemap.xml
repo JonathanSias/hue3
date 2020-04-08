@@ -7,7 +7,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="pt"
                 href="https://example.com/blog/"
                 />
     <xhtml:link
@@ -23,7 +23,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://example.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -33,7 +33,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/categories/"
+                href="https://example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -70,16 +70,6 @@
   <url>
     <loc>https://example.com/fr/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/tags/css/"
-                />
   </url>
   
   <url>
@@ -87,7 +77,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="pt"
                 href="https://example.com/blog/markdown-syntax/"
                 />
     <xhtml:link
@@ -100,16 +90,6 @@
   <url>
     <loc>https://example.com/fr/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/tags/html/"
-                />
   </url>
   
   <url>
@@ -118,7 +98,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://example.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -128,7 +108,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/"
+                href="https://example.com/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -167,7 +147,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="pt"
                 href="https://example.com/tags/markdown/"
                 />
     <xhtml:link
@@ -180,16 +160,6 @@
   <url>
     <loc>https://example.com/fr/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/categories/syntax/"
-                />
   </url>
   
   <url>
@@ -198,7 +168,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://example.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -208,7 +178,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/"
+                href="https://example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -245,31 +215,11 @@
   <url>
     <loc>https://example.com/fr/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/tags/themes/"
-                />
   </url>
   
   <url>
     <loc>https://example.com/fr/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/categories/themes/"
-                />
   </url>
   
   <url>
@@ -277,7 +227,7 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="pt"
                 href="https://example.com/tags/emoji/"
                 />
     <xhtml:link
@@ -292,7 +242,7 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="pt"
                 href="https://example.com/blog/emoji-support/"
                 />
     <xhtml:link
@@ -307,18 +257,13 @@
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://example.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="pl"
                 href="https://example.com/pl/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/about/"
+                href="https://example.com/about/"
                 />
     <xhtml:link
                 rel="alternate"

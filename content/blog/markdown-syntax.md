@@ -1,138 +1,34 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags = ["markdown", "css", "html", "themes"]
-categories = ["themes", "syntax"]
-images  = ["img/2014/04/pic02.jpg"]
-aliases = ["migrate-from-jekyl"]
+author = "Sias"
+title = "Hugo, Forestry e Netlify"
+date = "2020-04-08"
+description = "Gerando sites estáticos com Hugo e realizando deploy com Forestry e Netlify."
+tags = ["hugo", "forestry", "netlify"]
+categories = ["sites", "web"]
+images  = ["img/2020/hugo.jpg"]
+aliases = [""]
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Vamos falar um pouco a respeito do Hugo, um gerador de sites estáticos, assim como a realização do deploy através do Forestry e Netlify.
+
 <!--more-->
 
-## Headings
+## Hugo
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Hugo é um gerador de site estático rápido e moderno, escrito em Go, e projetado para tornar a criação de sites divertida novamente.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+Hugo é uma estrutura de site de uso geral. Tecnicamente falando, Hugo é um gerador de site estático. Ao contrário dos sistemas que constroem uma página dinamicamente a cada solicitação de visitante, Hugo cria páginas quando você cria ou atualiza seu conteúdo. Como os sites são visualizados com muito mais frequência do que os editados, Hugo foi projetado para fornecer uma experiência de visualização ideal para os usuários finais do site e uma experiência de escrita ideal para os autores do site.
 
-## Paragraph
+Os sites criados com Hugo são extremamente rápidos e seguros. Os sites da Hugo podem ser hospedados em qualquer lugar, incluindo Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure e CloudFront e funcionam bem com CDNs. Os sites Hugo são executados sem a necessidade de um banco de dados ou dependências de tempos de execução caros, como Ruby, Python ou PHP.
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+Pensamos em Hugo como a ferramenta ideal de criação de sites, com tempos de criação quase instantâneos, capazes de reconstruir sempre que uma alteração é feita.
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+## Forestry
 
-## Blockquotes
+Forestry.io é um CMS (sistema de gerenciamento de conteúdo) suportado pelo Git para sites e produtos da Web criados usando geradores de sites estáticos, como Hugo.
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+Ele preenche a lacuna entre os desenvolvedores e suas equipes, tornando o desenvolvimento divertido e fácil, além de fornecer um gerenciamento de conteúdo poderoso para suas equipes.
 
-#### Blockquote without attribution
+## Netlify
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
-
-#### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
-
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-#### Inline Markdown within tables
-
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
-| ---------- | --------- | ----------------- | ---------- |
-| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```
-html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-#### Code block indented with four spaces
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Item
-1. First Sub-item
-2. Second Sub-item
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+O Netlify é uma plataforma all-in-one para automatizar projetos modernos da web. Substitua sua infraestrutura de hospedagem, integração contínua e pipeline de implantação por um único fluxo de trabalho. Integre funcionalidades dinâmicas como funções sem servidor, autenticação de usuário e manipulação de formulários à medida que seus projetos crescem.

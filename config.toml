@@ -1,6 +1,6 @@
 baseurl                 = "https://example.com/"
-DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+DefaultContentLanguage  = "pt"
+title                   = "HUE3"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
@@ -20,24 +20,30 @@ disableLanguages        = [""]
   # Example: ["default", "/path/to/file"]
   cssFiles              = ["default"]
   jsFiles               = ["default"]
+  
   # Sets options for highlight.js
   highlightjs           = true
   highlightjsTheme      = "github"
   highlightjsLang       = ["html", "css", "js", "toml"]
+  
   # Sets where "View More Posts" links to
   viewMorePostsLink     = "/blog/"
+  
   # Activate Estimated Reading Times, which appear in the post headers
   readingTime           = true
+  
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook"
+                          ]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = ""
+    
     # Sets the meta tag author
-    author              = "HTML5UP and Hugo"
+    author              = "Sias"
+    
     # If you would like to add more comprehensive favicon support passed root
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
@@ -50,7 +56,8 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = ">_ HUE3"
+    
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
@@ -60,13 +67,15 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
-    rssIntro              = true
+    header                = "HUE3"
+    paragraph             = "Café sem açúcar, Feito é melhor que perfeito e WARNING não é ERRO !"
+    rssIntro              = false
     socialIntro           = true
+    
     # You may not want to display a long intro above content in the
     # single column layout used on smaller screens.
     hideWhenSingleColumn  = false
+    
     # But you may want to always display the intro on the homepage.
     alwaysOnHomepage      = false
 
@@ -74,23 +83,28 @@ disableLanguages        = [""]
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
       src                 = "/img/main/logo.jpg"
+      
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "Não importa quem somos ! O que realmente importa é lavar as mãos e ficar em casa...acompanhando nosso conteúdo, claro."
+    
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
+    
     # set to show or to hide categories in the sidebar
     categories          = true
+    
     # Sets Categories to sort by number of posts instead of alphabetical
     categoriesByCount   = true
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons
-    rssFooter           = true
+    rssFooter           = false
+    
     # Sets Social Media icons to appear on the sidebar
     socialFooter        = true
 
@@ -98,6 +112,7 @@ disableLanguages        = [""]
   # due to its ease of use. Feel free to check out both and decide which you would
   # prefer to use. See staticman.yml for additional settings.
   [params.staticman]
+    
     # If using GitHub, go to https://github.com/apps/staticman-net
     # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
     enabled             = false
@@ -313,7 +328,7 @@ disableLanguages        = [""]
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "JonathanSias"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
@@ -321,22 +336,22 @@ disableLanguages        = [""]
   codepen               = ""
   # Visual Art Communities
   deviantart            = ""
-  flickr                = "example"
+  #flickr                = ""
   behance               = ""
   dribbble              = ""
   # Publishing Communities
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
+  #linkedin              = ""
+  #linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
   # Social Networks
   facebook              = "example"
   googleplus            = ""
-  reddit                = "example"
+  #reddit                = ""
   quora                 = ""
   youtube               = ""
   vimeo                 = ""
@@ -350,12 +365,12 @@ disableLanguages        = [""]
   skype                 = ""
   snapchat              = ""
   pinterest             = "example"
-  telegram              = "example"
+  #telegram              = ""
   vine                  = ""
   googlescholar         = ""
   orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  #researchgate          = ""
+  #keybase               = ""
+  #mastodon              = ""
   # Email
-  email                 = "example"
+  #email                 = ""

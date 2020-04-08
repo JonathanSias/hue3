@@ -10,17 +10,23 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 Cet article propose un exemple de syntaxe de base de Markdown pouvant être utilisée dans les fichiers de contenu Hugo. Il indique également si les éléments HTML de base sont décorés avec CSS dans un thème Hugo.
+
 <!--more-->
 
 ## Rubriques
 
-Les éléments HTML `<h1>` —` <h6> `suivants représentent six niveaux d'en-tête de section. `<h1>` est le niveau de section le plus élevé tandis que `<h6>` est le plus bas.
+Les éléments HTML `<h1>` —`<h6>`suivants représentent six niveaux d'en-tête de section. `<h1>` est le niveau de section le plus élevé tandis que `<h6>` est le plus bas.
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 ## Paragraphe
@@ -29,75 +35,73 @@ Xerum, mais qui est un peu explicite sur le labo. Ace venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum se souvient de manière automatique dans les archives non-formées. Sapicia est sinveli squiatum, noyau et que aut hariosam ex eat.
 
-## Blockquotes
+#### Blockquote without attribution
 
-L'élément blockquote représente le contenu cité d'une autre source, éventuellement avec une citation qui doit figurer dans un élément `footer` ou` cite`, et éventuellement avec des modifications en ligne telles que des annotations et des abréviations.
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> **Note** that you can use _Markdown syntax_ within a blockquote.
 
-#### Blockquote sans attribution
+#### Blockquote with attribution
 
-> Tiam, menthe et andaepu dandae nostion secatur sequo quae.
-> **Remarque** que vous pouvez utiliser la syntaxe * Markdown * dans un bloc de citation.
+> Don't communicate by sharing memory, share memory by communicating.</p>
+> — <cite>Rob Pike[^1]</cite>
 
-#### Blockquote avec attribution
+[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
-> Ne communiquez pas en partageant la mémoire, partagez la mémoire en communiquant. </p>
-> - <cite> Rob Pike [^1] </cite>
+## Tables
 
+Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
-[^1]: La citation ci-dessus est extraite de [conversation] de Rob Pike (https://www.youtube.com/watch?v=PAAkCSZUG1c) lors de la fête de Gopherfest, le 18 novembre 2015.
+| Name  | Age |
+| ----- | --- |
+| Bob   | 27  |
+| Alice | 23  |
 
-## Les tables
+#### Inline Markdown within tables
 
-Les tables ne font pas partie de la spécification Markdown principale, mais Hugo les prend en charge immédiatement.
+| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
+| ------------------------ | -------------------------- | ----------------------------------- | ------ |
+| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
 
-   Nom | Âge
--------- | ------
-    Bob | 27
-  Alice | 23
+## Code Blocks
 
-#### Inline Markdown au sein des tables
-
-| En ligne & nbsp; & nbsp; & nbsp; | Markdown & nbsp; & nbsp; & nbsp; | Dans & nbsp; & nbsp; & nbsp; | Tableau |
-| ---------- | --------- | ----------------- | ---------- |
-| * italique * | ** gras ** | ~~ barré ~~ & nbsp; & nbsp; & nbsp; | `code` |
-
-## Blocs de code
-
-#### Bloc de code avec backticks
+#### Code block with backticks
 
 ```
 html
-<! DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Exemple de document HTML5 </title>
-</head>
-<body>
-  <p> Test </p>
-</body>
-</html>
-```
-#### Bloc de code indenté de quatre espaces
-
-    <! DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Exemple de document HTML5</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Bloc de code avec le shortcode interne de la surbrillance de Hugo
-{{< highlight html >}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> Exemple de document HTML5 </title>
+  <meta charset="UTF-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
+```
+
+#### Code block indented with four spaces
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Test</p>
+    </body>
+    </html>
+
+#### Code block with Hugo's internal highlight shortcode
+
+{{< highlight html >}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example HTML5 Document</title>
 </head>
 <body>
   <p>Test</p>
@@ -105,34 +109,35 @@ html
 </html>
 {{< /highlight >}}
 
-## Types de liste
+## List Types
 
-#### Liste ordonnée
+#### Ordered List
 
-1. Premier article
-2. Deuxième élément
-3. Troisième article
+1. First item
+2. Second item
+3. Third item
 
-#### Liste non ordonnée
+#### Unordered List
 
-* Élément de liste
-* Un autre article
-* Et un autre article
+- List item
+- Another item
+- And another item
 
-#### Liste imbriquée
+#### Nested list
 
-* Article
-1. Premier sous-article
-2. Deuxième sous-article
+- Item
 
-## Autres éléments - abbr, sous, sup, kbd, mark
+1. First Sub-item
+2. Second Sub-item
 
-<abbr title="Format d'échange graphique">GIF</abbr> est un format d'image bitmap.
+## Other Elements — abbr, sub, sup, kbd, mark
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
 H<sub>2</sub>O
 
-X<sup>n</sup>+Y<sup>n</sup>=Z<sup>n</sup>
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Appuyez sur <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Supprimer</kbd></kbd> pour mettre fin à la session.
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
-La plupart des <mark>salamandres</mark> sont nocturnes et chassent les insectes, les vers et autres petites créatures.
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
